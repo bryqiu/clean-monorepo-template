@@ -1,0 +1,49 @@
+{
+  "name": "clean-monorepo-template",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "description": "现代化 Monorepo 项目模板，高效构建你的应用",
+  "author": "Bryan Qiu",
+  "license": "MIT",
+  "homepage": "https://github.com/bryqiu/clean-monorepo-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bryqiu/clean-monorepo-template.git"
+  },
+  "bugs": "https://github.com/bryqiu/clean-monorepo-template/issues",
+  "keywords": [
+    "react",
+    "clean",
+    "monorepo",
+    "template",
+    "typescript",
+    "clean-monorepo",
+    "monorepo-template",
+    "clean-monorepo-template"
+  ],
+  "engines": {
+    "pnpm": ">=9.6.0"
+  },
+  "scripts": {
+    "view:eslint": "eslint-config-inspector --config eslint.config.js",
+    "lint:eslint": "eslint --fix --cache-location 'node_modules/.cache/eslint/'",
+    "lint:style": "stylelint --fix --cache-location 'node_modules/.cache/stylelint/'"
+  },
+  "dependencies": {
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "catalog:",
+    "@eslint-react/eslint-plugin": "catalog:",
+    "@eslint/config-inspector": "catalog:",
+    "@types/node": "catalog:",
+    "eslint": "catalog:",
+    "eslint-plugin-react-hooks": "catalog:",
+    "eslint-plugin-react-refresh": "catalog:",
+    "stylelint": "catalog:",
+    "typescript": "catalog:"
+  }
+}

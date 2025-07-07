@@ -1,0 +1,15 @@
+{
+  "name": "@clean/hooks",
+  "type": "module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/bryqiu/clean-monorepo-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bryqiu/clean-monorepo-template.git"
+  },
+  "bugs": "https://github.com/bryqiu/clean-monorepo-template/issues",
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}
